@@ -4,6 +4,7 @@ import { Container, Col, Row } from "react-bootstrap";
 const services = [
   { title: "Develop A Web Solution", description: "placeholder text" },
   { title: "Develop a Native App Solution", description: "placeholder text" },
+  { title: "Develop a Blockchain Solution", description: "placeholder text" },
   { title: "Quality Assurance & Testing", description: "placeholder text" },
 ];
 
