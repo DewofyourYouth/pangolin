@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export function SiteNavBar() {
   return (
-    <Navbar bg="dark" variant="dark">
+    <Navbar bg="transparent" variant="dark" fixed="top">
       <Nav className="mr-auto">
         <LinkContainer exact to="/">
           <Nav.Link variant="dark">Home</Nav.Link>
