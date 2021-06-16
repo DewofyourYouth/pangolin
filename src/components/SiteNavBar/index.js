@@ -10,10 +10,12 @@ export function SiteNavBar() {
     <Navbar bg="transparent" variant="dark" fixed="top">
       <Nav className="mr-auto">
         <LinkContainer exact to="/">
-          <Nav.Link variant="dark">Home</Nav.Link>
+          <Nav.Link variant="dark" data-cy="home-link">
+            Home
+          </Nav.Link>
         </LinkContainer>
         <LinkContainer to="/services">
-          <Nav.Link>Services</Nav.Link>
+          <Nav.Link data-cy="services-link">Services</Nav.Link>
         </LinkContainer>
       </Nav>
     </Navbar>
