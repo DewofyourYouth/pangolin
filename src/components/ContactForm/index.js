@@ -5,10 +5,11 @@ export function ContactForm() {
       name="contact"
       variant="dark"
       className="text-white mb-5"
-      netlify
-      netlify-honeypot="bot-field"
+      //   netlify
+      //   netlify-honeypot="bot-field"
     >
       <h2 className="title line-break-dark-bg">Contact Pangolin</h2>
+      <input type="hidden" name="form-name" value="contact" />
       <Form.Group controlId="email" className="text-left mt-3">
         <Form.Label>Email address</Form.Label>
         <Form.Control
