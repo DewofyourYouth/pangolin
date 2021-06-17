@@ -11,5 +11,6 @@ describe("The Services Page", () => {
     cy.get("h2").contains(/Native/i);
     cy.get("h2").contains(/Blockchain/i);
     cy.get("h2").contains(/Testing/i);
+    cy.get("h2").contains(/Data/i);
   });
 });
