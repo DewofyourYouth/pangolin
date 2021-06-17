@@ -4,8 +4,9 @@ export function ContactForm() {
     <Form
       variant="dark"
       className="text-white mb-5"
-      method="post"
-      data-netlify="true"
+      netlify
+      netlify-honeypot="bot-field"
+      hidden
     >
       <h2 className="title line-break-dark-bg">Contact Pangolin</h2>
       <Form.Group controlId="email" className="text-left mt-3">
