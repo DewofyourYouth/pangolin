@@ -7,7 +7,6 @@ export function ContactForm() {
       className="text-white mb-5"
       netlify
       netlify-honeypot="bot-field"
-      hidden
     >
       <h2 className="title line-break-dark-bg">Contact Pangolin</h2>
       <Form.Group controlId="email" className="text-left mt-3">
