@@ -2,6 +2,7 @@ import { Form, Button, Col } from "react-bootstrap";
 export function ContactForm() {
   return (
     <Form
+      name="contact"
       variant="dark"
       className="text-white mb-5"
       netlify
