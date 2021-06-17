@@ -5,6 +5,7 @@ export function ContactForm() {
       name="contact"
       variant="dark"
       className="text-white mb-5"
+      method="post"
       //   netlify
       //   netlify-honeypot="bot-field"
     >
