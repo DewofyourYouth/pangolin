@@ -18,3 +18,13 @@ code {
   text-transform: uppercase;
   margin-top: 5rem;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.line-break-dark-bg {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #79787883;
+}
+
