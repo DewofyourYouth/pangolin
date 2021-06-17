@@ -16,7 +16,7 @@ export function Services() {
       <Container fluid>
         <Row>
           <Col className="text-center bg-dark text-white p-5">
-            <h1 className="display-3 title" data-cy="page-title">
+            <h1 className="title" data-cy="page-title">
               Services
             </h1>
           </Col>
