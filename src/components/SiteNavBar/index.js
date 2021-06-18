@@ -1,9 +1,8 @@
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import { LinkContainer } from "react-router-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-// import { BrowserRouter as Router } from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
 export function SiteNavBar() {
   return (
@@ -13,6 +12,9 @@ export function SiteNavBar() {
           <Nav.Link variant="dark" data-cy="home-link">
             Home
           </Nav.Link>
+        </LinkContainer>
+        <LinkContainer to="/about">
+          <Nav.Link data-cy="about-link">About</Nav.Link>
         </LinkContainer>
         <LinkContainer to="/services">
           <Nav.Link data-cy="services-link">Services</Nav.Link>

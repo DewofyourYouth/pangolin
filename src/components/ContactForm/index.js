@@ -1,4 +1,4 @@
-import { Form, Button, Col } from "react-bootstrap";
+import { Button, Col, Form } from "react-bootstrap";
 export function ContactForm() {
   return (
     <Form

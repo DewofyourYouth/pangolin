@@ -1,8 +1,10 @@
-import logo from "../../pangolin_logo.png";
-import { SiteNavBar } from "../../components/SiteNavBar";
 import "./Home.css";
+
+import { Col, Container, Row } from "react-bootstrap";
+
 import { ContactForm } from "../../components/ContactForm";
-import { Container, Row, Col } from "react-bootstrap";
+import { SiteNavBar } from "../../components/SiteNavBar";
+import logo from "../../pangolin_logo.png";
 
 export function Home() {
   return (
