@@ -19,20 +19,16 @@ export function About() {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <h4 className="p-4">
+          <Col xs={12} md={6} className="list-column assumptions pb-5">
+            <h4 className="p-4 text-center" style={{ minHeight: "130px" }}>
               Here at Pangolin, we have some assumptions about what you want.
             </h4>
-          </Col>
-          <Col>
-            <h4 className="p-4">We strive to deliver this through:</h4>
-          </Col>
-        </Row>
-        <Row>
-          <Col className="list-column assumptions pb-5">
             <ParsedMarkdown file={assumptionsList} />
           </Col>
-          <Col className="list-column achieve">
+          <Col xs={12} md={6} className="list-column achieve">
+            <h4 className="p-4 text-center" style={{ minHeight: "130px" }}>
+              We strive to deliver this through:
+            </h4>
             <ParsedMarkdown file={acheiveList} />
           </Col>
         </Row>
