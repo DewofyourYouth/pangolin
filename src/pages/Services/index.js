@@ -1,14 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 
 import { Header } from "../../components/Header";
-
-const services = [
-  { title: "Develop A Web Solution", description: "placeholder text" },
-  { title: "Develop a Native App Solution", description: "placeholder text" },
-  { title: "Develop a Data Solution", description: "Placeholder text" },
-  { title: "Develop a Blockchain Solution", description: "placeholder text" },
-  { title: "Quality Assurance & Testing", description: "placeholder text" },
-];
+import services from "../../content/services/services.json";
 
 export function Services() {
   return (
