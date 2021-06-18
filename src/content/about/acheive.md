@@ -1,6 +1,6 @@
 - Clear, conscious communication.
   - Taking the time to listen - and making sure that we fully understand our clients needs.
   - Plotting a course to completion with milestones and reviewing it regularly with our clients - keeping them aware of any progress or setbacks
-- Using a test-driven development process.
-- Using SOLID design principles to allow for optimal extensibility and flexibility to allow for changing/evolving requirements.
+- Using a [test-driven development](https://developer.ibm.com/devpractices/software-development/articles/5-steps-of-test-driven-development/) process.
+- Using [SOLID design principles](https://stackify.com/solid-design-principles/) to allow for optimal extensibility and flexibility to allow for changing/evolving requirements.
 - Writing clean, clear and maintainable code.

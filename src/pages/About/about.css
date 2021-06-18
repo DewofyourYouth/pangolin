@@ -19,3 +19,8 @@
     margin:0 15px 0 -15px;
     color: #5a5959;
 } 
+
+h1 {
+    font-family: "Syncopate", sans-serif;
+    text-transform: uppercase;
+}
