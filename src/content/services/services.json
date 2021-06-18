@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Develop A Web Solution",
+    "description": "Build a website or webapp to you business needs."
+  },
+  {
+    "title": "Develop a Native App Solution",
+    "description": "Develop an app for Android, iOS or a cross platform app."
+  },
+  {
+    "title": "Develop a Data Solution",
+    "description": "Develop a system to manage, analyze, and migrate your data with."
+  },
+  {
+    "title": "Develop a Blockchain Solution",
+    "description": "Develop a decentralized application using the ethereum blockchain."
+  },
+  {
+    "title": "Quality Assurance & Testing",
+    "description": "Ensure that you app works as expected. Ideally this is done at the beginning of a project - but as the old Chinese proverb goes: \"The best time to plant a tree is ten years ago, the second best time is today.\""
+  }
+]
