@@ -4,4 +4,4 @@
 - Using a [test-driven development](https://developer.ibm.com/devpractices/software-development/articles/5-steps-of-test-driven-development/) process.
 - Using [SOLID design principles](https://stackify.com/solid-design-principles/) to allow for optimal extensibility and flexibility to allow for changing/evolving requirements.
 - Writing clean, clear and maintainable code.
-- Verifying everything works with end-to-end tesing.
+- Verifying everything works with end-to-end testing.
