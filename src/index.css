@@ -28,8 +28,7 @@ code {
   border-bottom: 2px solid #79787883;
 }
 
-
 .bg-dark-theme {
   background-color: #282c34 !important;
-
+  text-align: center;
 }
