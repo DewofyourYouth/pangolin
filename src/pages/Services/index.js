@@ -1,5 +1,6 @@
-import { SiteNavBar } from "../../components/SiteNavBar";
-import { Container, Col, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
+
+import { Header } from "../../components/Header";
 
 const services = [
   { title: "Develop A Web Solution", description: "placeholder text" },
@@ -12,15 +13,8 @@ const services = [
 export function Services() {
   return (
     <div>
-      <SiteNavBar />
+      <Header title="Services" />
       <Container fluid>
-        <Row>
-          <Col className="text-center bg-dark text-white p-5">
-            <h1 className="display-3 title" data-cy="page-title">
-              Services
-            </h1>
-          </Col>
-        </Row>
         {services.map((service, i) => (
           <Row>
             <Col

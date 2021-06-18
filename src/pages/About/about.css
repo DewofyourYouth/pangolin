@@ -1,0 +1,21 @@
+.list-column li {
+    padding-bottom: 1rem;
+}
+.list-column ul {
+    list-style-type: none;
+}
+.assumptions ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f058';
+    margin:0 15px 0 -15px;
+    color: #726e6e;
+
+} 
+
+.achieve ul li:before {
+    font-family: 'FontAwesome';
+    content: '\f46c';
+    font-size: 1.3rem;
+    margin:0 15px 0 -15px;
+    color: #5a5959;
+} 
