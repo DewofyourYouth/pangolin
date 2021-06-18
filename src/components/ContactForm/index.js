@@ -2,6 +2,7 @@ import { Button, Col, Form } from "react-bootstrap";
 export function ContactForm() {
   return (
     <Form
+      id="contact"
       name="contact"
       variant="dark"
       className="text-white mb-5"
@@ -41,8 +42,8 @@ export function ContactForm() {
         <Form.Label>Message</Form.Label>
         <Form.Control required as="textarea" name="message" rows={3} />
       </Form.Group>
-      <Button variant="outline-primary" type="submit">
-        Submit
+      <Button variant="outline-primary" size="lg" type="submit">
+        SUBMIT
       </Button>
     </Form>
   );
